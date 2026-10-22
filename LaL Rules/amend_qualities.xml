@@ -293,5 +293,17 @@ An AI with this quality may have evolved from a vehicle Pilot program and retain
         </oneof>
       </required>
 	</quality>
+		
+	<!-- Shoot First is Mundane only -->
+	<quality>
+      <id>83e5f9a2-e76b-4a11-81db-4b0466b727ce</id>
+		<forbidden amendoperation="addnode">
+        <oneof>
+		  <magenabled />
+          <resenabled />
+          <depenabled />
+        </oneof>
+		</forbidden>
+	</quality>
   </qualities> 
 </chummer>

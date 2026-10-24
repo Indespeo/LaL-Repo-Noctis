@@ -554,6 +554,21 @@
 <!-- Awakened Mastery Qualities-->
 
 <quality>
+  <id>ac880589-2c21-4045-b190-0e47a9434951</id>
+  <name>Aspected Disenchantng Mastery</name>
+  <karma>4</karma>
+  <category>Positive</category>
+  <required>
+        <oneof>
+		<quality>Aspected Magician</quality>
+		<quality>Null Wizard</quality>
+	  </oneof>
+	</required>
+  <source>SR5</source>
+  <page>1</page>
+</quality>
+
+<quality>
   <id>08d3d622-62e5-4cba-b67c-2d79486d7934</id>
   <name>Dedicated Alchemist (Disable Summoning and Binding)</name>
   <karma>10</karma>

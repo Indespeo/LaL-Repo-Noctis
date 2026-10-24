@@ -554,6 +554,47 @@
 <!-- Awakened Mastery Qualities-->
 
 <quality>
+  <id>08d3d622-62e5-4cba-b67c-2d79486d7934</id>
+  <name>Dedicated Alchemist (Disable Summoning and Binding)</name>
+  <karma>10</karma>
+  <category>Positive</category>
+  <canbuywithspellpoints>True</canbuywithspellpoints>
+  <costdiscount>
+	<required>
+	  <oneof>
+		<quality>Apprentice</quality>
+		<quality>Aspected Magician</quality>
+		<quality>Enchanter</quality>
+	  </oneof>
+	</required>
+	<value>-5</value>
+  </costdiscount>
+  <doublecareer>False</doublecareer>
+  <bonus>
+	<freespells skill="Alchemy" />
+	<newspellkarmacost type="Preparations">-1</newspellkarmacost>
+	<skilldisable>Summoning</skilldisable>
+	<skilldisable>Binding</skilldisable>
+  </bonus>
+  <required>
+	<allof>
+	  <attribute>
+		<name>MAG</name>
+		<total>1</total>
+	  </attribute>
+	</allof>
+	<oneof>
+	  <skill>
+		<name>Alchemy</name>
+		<val>1</val>
+	  </skill>
+	</oneof>
+  </required>
+  <source>SR5</source>
+  <page>1</page>
+</quality>
+	
+<quality>
     <id>2533106b-1ec7-4c20-b834-b026a6bb9f9d</id>
       <name>That Little Spark</name>
       <karma>1</karma>

@@ -20,7 +20,6 @@
 <chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema powers.xsd">
 
   <powers>
-    <!-- Region SR5 -->
     <power>
       <id>62c8f0eb-d5e7-4431-a7a4-af7eb93cc02a</id>
       <name>Ritual Aid</name>
@@ -41,6 +40,20 @@
       <page>5</page>
       <maxlevels>2</maxlevels>	  
     </power>	
-
+	<power>
+      <id>427d0b02-c251-49c8-9387-9c7a8f9cbef3</id>
+      <name>Adept Preparation</name>
+      <points>0.5</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>HT</source>
+      <page>190</page>
+      <adeptway>0.25</adeptway>
+      <bonus>
+        <selectspell ignorerequirements="True" />
+        <unlockskills name="Alchemy">Name</unlockskills>
+      </bonus>
+    </power>
+  
   </powers>
 </chummer>

@@ -18,10 +18,26 @@
     https://github.com/chummer5a/chummer5a
 -->
 <chummer>
-    <echo>
-      <id>fc62a906-9873-4386-8cef-385caf27a424</id>
-      <name>Nanite Sustenance</name>
-      <source>SR5</source>
-      <page>5</page>
-    </echo>
+    <echoes>
+        <echo>
+          <id>fc62a906-9873-4386-8cef-385caf27a424</id>
+          <name>Nanite Sustenance</name>
+          <source>SR5</source>
+          <page>5</page>
+        </echo>
+
+        <echo>
+          <id>f14a8951-e80d-482b-bd38-25a2de52512c</id>
+          <name>Void SIN</name>
+          <source>SR5</source>
+          <page>5</page>
+        </echo>
+
+        <echo>
+          <id>dd200d6d-d64a-4845-b223-8eba2dc50b4c</id>
+          <name>Resonant Router</name>
+          <source>SR5</source>
+          <page>5</page>
+        </echo>
+    </echoes>
 </chummer>

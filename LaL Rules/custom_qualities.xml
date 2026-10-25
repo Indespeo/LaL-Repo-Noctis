@@ -268,6 +268,23 @@
 <!-- Standard Positive Qualities -->
 
 <quality>
+    <id>aded2ec3-fd0c-4d6f-96ae-e33a6513575b</id>
+      <name>Fashion Influencer</name>
+      <karma>5</karma>
+      <category>Positive</category>
+	  <required>
+	  <oneof>
+	      <quality>Fame: Local</quality>
+          <quality>Fame: National</quality>
+          <quality>Fame: Megacorporate</quality>
+          <quality>Fame: Global</quality>
+	  </oneof>
+	  </required>
+      <source>SR5</source>
+    <page>5</page>
+</quality>
+
+<quality>
     <id>f8914d20-868d-412f-9d1b-26a6d304044b</id>
       <name>Crash Protocol</name>
       <karma>20</karma>
@@ -553,6 +570,21 @@
 
 <!-- Awakened Mastery Qualities-->
 
+<quality>
+    <id>d8b93f2c-eebd-4158-86a6-e73bb5526c58</id>
+      <name>Scouring</name>
+      <karma>5</karma>
+      <category>Positive</category>
+	  <required>
+	  <allof>
+		<quality>Null Wizard</quality>
+		<metamagic>Cleansing</metamagic>
+	  </allof>
+	  </required>
+      <source>SR5</source>
+    <page>5</page>
+</quality>
+	
 <quality>
   <id>ac880589-2c21-4045-b190-0e47a9434951</id>
   <name>Aspected Disenchantng Mastery</name>

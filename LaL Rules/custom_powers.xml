@@ -39,21 +39,38 @@
       <source>SR5</source>
       <page>5</page>
       <maxlevels>2</maxlevels>	  
-    </power>	
+    </power>
+
 	<power>
       <id>427d0b02-c251-49c8-9387-9c7a8f9cbef3</id>
       <name>Adept Preparation</name>
       <points>0.5</points>
       <levels>False</levels>
       <limit>1</limit>
-      <source>HT</source>
-      <page>190</page>
+      <source>SR5</source>
+      <page>5</page>
       <adeptway>0.25</adeptway>
       <bonus>
         <selectspell ignorerequirements="True" />
         <unlockskills name="Alchemy">Name</unlockskills>
       </bonus>
     </power>
-  
+
+	<power>
+      <id>cb5d494b-858f-4871-8a93-680aa06646e8</id>
+      <name>Siphon</name>
+      <points>1</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>SR5</source>
+      <page>5</page>
+      <adeptway>0.5</adeptway>
+	    <required>
+			<oneof>
+				<metamagic>Cannibalize</metamagic>
+			</oneof>
+		</required>	
+    </power>
+
   </powers>
 </chummer>

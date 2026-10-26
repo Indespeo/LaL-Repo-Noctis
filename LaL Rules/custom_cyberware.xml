@@ -19,6 +19,82 @@
 -->
 <chummer>
 	<cyberwares>
+
+		<cyberware>
+		  <id>29679a2b-c231-4d07-a279-e14c1f5f79ba</id>
+		  <name>Offline Marksman Suite</name>
+		  <category>Headware</category>
+		  <inheritattributes />
+		  <ess>0.25</ess>
+		  <capacity>0</capacity>
+		  <avail>12R</avail>
+		  <cost>10000</cost>
+		  <source>SR5</source>
+		  <page>5</page>
+		  <required>
+			<allof>
+			  <cyberware>Cybereyes Basic System</cyberware>
+			  <cyberware>Cyberears</cyberware>
+			  <cyberware>Internal Router</cyberware>
+			  <cyberware>Math SPU</cyberware>
+			  <cyberware>Orientation System</cyberware>
+			  <cyberware>Smartlink</cyberware>
+			</allof>
+			<oneof>
+			  <cyberware>Datajack</cyberware>
+			  <cyberware>Datajack Plus</cyberware>
+			</oneof>
+		  </required>
+		</cyberware>
+
+	    <cyberware>
+	      <id>0b0f5a50-4136-43c9-b019-de06b1128115</id>
+	      <name>Keypad Sequencing Fingers</name>
+	      <limit>{arm}</limit>
+	      <category>Cyberlimb Enhancement</category>
+	      <ess>0.3</ess>
+	      <capacity>[4]</capacity>
+	      <avail>(Rating * 4)F</avail>
+	      <cost>Rating * 1000</cost>
+	      <source>SR5</source>
+	      <page>5</page>
+	      <blocksmounts>wrist,elbow,shoulder</blocksmounts>
+	      <required>
+	        <parentdetails>
+	          <OR>
+	            <NONE />
+	            <name operation="contains">Full Arm</name>
+	            <name operation="contains">Lower Arm</name>
+	            <name operation="contains">Hand</name>
+	            <name operation="contains">Drone Arm</name>
+	          </OR>
+	        </parentdetails>
+	      </required>
+		  <rating>6</rating>
+	    </cyberware>
+
+		<cyberware>
+			<id>0cc3dea9-c47f-457a-a42f-31f1d388493a</id>
+			<name>W.I.N.G.S</name>
+			<limit>False</limit>
+			<category>Bodyware</category>
+			<ess>2.00</ess>
+			<capacity>[6]</capacity>
+			<avail>14</avail>
+			<cost>50000</cost>
+			<source>SR5</source>
+			<page>5</page>
+			<requireparent />
+			<required>
+				<parentdetails>
+				<OR>
+					<name>Obvious Torso</name>
+					<name>Synthetic Torso</name>
+				</OR>
+				</parentdetails>
+			</required>
+		</cyberware>
+
 		<cyberware>
 		<id>7854712f-9d78-47b5-9aaf-4cc92881e297</id>
 		<name>EVO I.C.E.P.I.C.K.</name>

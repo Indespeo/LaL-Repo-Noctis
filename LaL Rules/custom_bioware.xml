@@ -21,6 +21,20 @@
 	<biowares>
 
     <bioware>
+      <id>46e8a137-5b40-4a56-b994-2cc783faf975</id>
+      <name>Spicy Red</name>
+      <category>Transgenics</category>
+      <ess>0</ess>
+      <capacity>0</capacity>
+      <avail>14</avail>
+      <cost>45000</cost>
+      <forcegrade>None</forcegrade>
+      <isgeneware />
+      <source>SR5</source>
+      <page>5</page>
+    </bioware>
+
+    <bioware>
       <id>6cb48e89-27d1-4c34-9b12-a23a3947f9a8</id>
       <name>Cortex Fortification</name>
       <category>Cultured</category>

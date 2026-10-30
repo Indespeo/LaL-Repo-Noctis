@@ -926,6 +926,30 @@
 <!-- Awakened Negative Qualities -->
 
 <quality>
+	<id>27cf687b-09d4-452a-8299-fe5eddcd0561</id>
+	<name>Close-Minded Summoner</name>
+	<karma>-3</karma>
+	<category>Negative</category>
+	<limit>5</limit>
+	<bonus>
+		<selecttext />
+	</bonus>
+	<required>
+        <allof>
+          <magenabled />
+        </allof>
+        <oneof>
+          <skill>
+            <name>Summoning</name>
+            <val>1</val>
+          </skill>
+        </oneof>
+      </required>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
+<quality>
     <id>a045a3d7-6d3a-4feb-bd99-93664a6ee069</id>
       <name>Spellblock</name>
       <karma>-3</karma>
@@ -1412,6 +1436,75 @@
       <source>SR5</source>
       <page>5</page>
     </quality>	
-	
+
+<!-- Negative Qualities -->
+
+<quality>
+	<id>cc52ab24-bbd4-4b64-8d44-0baf902e34cf</id>
+	<name>Foot in Your Mouth</name>
+	<karma>-4</karma>
+	<category>Negative</category>
+	<limit>4</limit>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
+<quality>
+	<id>37178279-a0dc-4659-b2f8-e4c3afbfa863</id>
+	<name>Vampire Poser</name>
+	<karma>-6</karma>
+	<category>Negative</category>
+	<limit>False</limit>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
+<quality>
+	<id>ab8844fb-43e8-41ad-80e2-588cb9f05ed1</id>
+	<name>Anime Cough of Death</name>
+	<karma>-5</karma>
+	<category>Negative</category>
+	<limit>False</limit>
+	<required>
+        <allof>
+			<quality>Borrowed Time</quality>
+        </allof>
+    </required>
+	<bonus>
+		<specificattribute>
+			<name>BOD</name>
+			<max>-1</max>
+		</specificattribute>
+	</bonus>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
+<quality>
+	<id>956901a6-7502-4de8-b122-e2ef6de2e5ac</id>
+	<name>Driving While Trog</name>
+	<karma>-6</karma>
+	<category>Negative</category>
+	<limit>False</limit>
+	<required>
+		<oneof>
+			<metatype>Troll</metatype>
+			<metatype>Ork</metatype>
+		</oneof>
+	</required>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
+<quality>
+	<id>9636cb62-0fe2-4dea-aa6f-aecdc84e52a7</id>
+	<name>Fed Magnet</name>
+	<karma>-12</karma>
+	<category>Negative</category>
+	<limit>False</limit>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
 </qualities>
 </chummer>

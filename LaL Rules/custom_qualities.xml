@@ -265,6 +265,237 @@
       <page>5</page>
     </quality>
 
+<quality>
+    <id>16a85177-470d-463b-8fd6-4a9edd96c341</id>
+	<name>Surprise Cocktail</name>
+	<karma>5</karma>
+	<category>Positive</category>
+	<doublecareer>False</doublecareer>
+	<forbidden>
+		<oneof>
+			<magenabled />
+			<resenabled />
+			<depenabled />
+		</oneof>
+	</forbidden>
+    <required>
+		<allof>
+			<skill>
+				<name>Armorer</name>
+				<val>4</val>
+			</skill>
+			<skill>
+				<name>Demolitions</name>
+				<val>4</val>
+			</skill>
+			<quality>Special Modifications</quality>
+			<quality>The Perfected Arsenal</quality>
+		</allof>
+	</required>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
+<quality>
+    <id>c1965a58-7ff8-4730-bcd2-36c9d5298660</id>
+	<name>Pistol Parry</name>
+	<karma>10</karma>
+	<category>Positive</category>
+	<doublecareer>False</doublecareer>
+	<forbidden>
+		<oneof>
+			<magenabled />
+			<resenabled />
+			<depenabled />
+		</oneof>
+	</forbidden>
+    <required>
+		<oneof>
+			<skill>
+				<name>Pistols</name>
+				<val>8</val>
+				<spec>Heavy Pistols</spec>
+			</skill>
+			<skill>
+				<name>Pistols</name>
+				<val>8</val>
+				<spec>Light Pistols</spec>
+			</skill>
+			<skill>
+				<name>Pistols</name>
+				<val>8</val>
+				<spec>Revolvers</spec>
+			</skill>
+			<skill>
+				<name>Pistols</name>
+				<val>8</val>
+				<spec>Holdouts</spec>
+			</skill>
+		</oneof>
+	</required>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
+<quality>
+    <id>811c690f-e8a9-47b7-986b-e4c525246a2d</id>
+	<name>Big Game Hunter</name>
+	<karma>10</karma>
+	<category>Positive</category>
+	<doublecareer>False</doublecareer>
+	<forbidden>
+		<oneof>
+			<magenabled />
+			<resenabled />
+			<depenabled />
+		</oneof>
+	</forbidden>
+    <required>
+		<oneof>
+			<skill>
+				<name>Longarms</name>
+				<val>6</val>
+				<spec>Sporting Rifles</spec>
+			</skill>
+		</oneof>
+	</required>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
+<quality>
+    <id>ccd16e57-cbc7-404b-8a60-2726a13e8590</id>
+	<name>High Maneuverability</name>
+	<karma>10</karma>
+	<category>Positive</category>
+	<doublecareer>False</doublecareer>
+	<forbidden>
+		<oneof>
+			<magenabled />
+			<resenabled />
+			<depenabled />
+		</oneof>
+	</forbidden>
+    <required>
+		<oneof>
+			<skill>
+				<name>Automatics</name>
+				<val>8</val>
+				<spec>Carbines</spec>
+			</skill>
+		</oneof>
+	</required>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
+<quality>
+    <id>a4b7571f-3fa9-4907-835a-80c30aef2fbb</id>
+	<name>Smell the Napalm</name>
+	<karma>10</karma>
+	<category>Positive</category>
+	<doublecareer>False</doublecareer>
+	<forbidden>
+		<oneof>
+			<magenabled />
+			<resenabled />
+			<depenabled />
+		</oneof>
+	</forbidden>
+    <required>
+		<oneof>
+			<skill>
+				<name>Heavy Weapons</name>
+				<val>8</val>
+				<spec>Flamethrowers</spec>
+			</skill>
+		</oneof>
+	</required>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
+<quality>
+    <id>a6afe66b-53ef-47b9-8474-a7b057750910</id>
+	<name>It's All the Same</name>
+	<karma>10</karma>
+	<category>Positive</category>
+	<doublecareer>False</doublecareer>
+	<forbidden>
+		<oneof>
+			<magenabled />
+			<resenabled />
+			<depenabled />
+		</oneof>
+	</forbidden>
+    <required>
+		<oneof>
+			<skill>
+				<name>Gunnery</name>
+				<val>8</val>
+			</skill>
+		</oneof>
+	</required>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
+<quality>
+    <id>19454ad4-c148-4145-a54c-ea327573efe8</id>
+	<name>Oh, That's a Baseball</name>
+	<karma>10</karma>
+	<category>Positive</category>
+	<doublecareer>False</doublecareer>
+	<forbidden>
+		<oneof>
+			<magenabled />
+			<resenabled />
+			<depenabled />
+		</oneof>
+	</forbidden>
+    <required>
+		<oneof>
+			<skill>
+				<name>Clubs</name>
+				<val>8</val>
+			</skill>
+		</oneof>
+	</required>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
+<quality>
+    <id>ce06a52e-7634-4622-bdc9-0b691aa4feb3</id>
+	<name>Icepick Grip</name>
+	<karma>10</karma>
+	<category>Positive</category>
+	<doublecareer>False</doublecareer>
+	<forbidden>
+		<oneof>
+			<magenabled />
+			<resenabled />
+			<depenabled />
+		</oneof>
+	</forbidden>
+    <required>
+		<oneof>
+			<skill>
+				<name>Blades</name>
+				<val>8</val>
+				<spec>Knives</spec>
+			</skill>
+			<skill>
+				<name>Blades</name>
+				<val>8</val>
+				<spec>Daggers</spec>
+			</skill>
+		</oneof>
+	</required>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
 <!-- Standard Positive Qualities -->
 
 <quality>

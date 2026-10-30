@@ -72,5 +72,25 @@
 		</required>	
     </power>
 
+    <power>
+      <id>d7f59965-2bbb-40ad-89aa-bbaf99f627d4</id>
+      <name>Improved Mental Attribute</name>
+      <points>1</points>
+      <levels>True</levels>
+      <limit>12</limit>
+      <source>SR5</source>
+      <page>309</page>
+      <adeptway>0.5</adeptway>
+      <bonus>
+        <selectattribute>
+          <attribute>CHA</attribute>
+          <attribute>INT</attribute>
+          <attribute>LOG</attribute>
+          <attribute>WIL</attribute>
+          <val>Rating</val>
+        </selectattribute>
+      </bonus>
+    </power>
+
   </powers>
 </chummer>

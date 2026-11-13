@@ -25,6 +25,36 @@
           <reach amendoperation="remove" />
         </bonus>
     </quality>
+<!-- Allow new Infected types to select optional powers -->
+    <quality>
+      <id>e3ed1dec-9e91-4dbf-ac5c-30bd6d9900a4</id>
+      <name>Infected Optional Power: Influence</name>
+      <required>
+        <oneof>
+          <quality amendoperation="addnode">Infected: Chiron</quality>
+          <quality amendoperation="addnode">Infected: Baobhan Sith</quality>
+        </oneof>
+      </required>
+    </quality>
+    <quality>
+      <id>311ebb96-bf65-483e-86b7-62702a43aae3</id>
+      <name>Infected Optional Power: Regeneration</name>
+      <required>
+        <oneof>
+          <quality amendoperation="addnode">Infected: Chiron</quality>
+          <quality amendoperation="addnode">Infected: Baobhan Sith</quality>
+        </oneof>
+      </required>
+    </quality>
+    <quality>
+      <id>6d9f205e-52a0-4bb2-a4c2-e49232dd8346</id>
+      <name>Infected Optional Power: Paralyzing Howl</name>
+      <required>
+        <oneof>
+          <quality amendoperation="addnode">Infected: Baobhan Sith</quality>
+        </oneof>
+      </required>
+    </quality>
 <!-- Education Qualities Apply Karma Discount in Create Mode -->
     <quality>
       <id>604aea10-3f13-4f28-a87b-25b8bf677276</id>

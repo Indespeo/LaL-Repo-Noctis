@@ -496,6 +496,345 @@
 	<page>5</page>
 </quality>
 
+<!-- Infected Qualities -->
+
+<quality>
+  <id>d5be0651-b958-4143-a80a-83948420306d</id>
+  <name>Infected: Baobhan Sith</name>
+  <karma>50</karma>
+  <category>Positive</category>
+  <contributetolimit>False</contributetolimit>
+  <costdiscount>
+	<required>
+	  <oneof>
+		<quality>Magician</quality>
+		<quality>Adept</quality>
+		<quality>Mystic Adept</quality>
+	  </oneof>
+	</required>
+	<value>-10</value>
+  </costdiscount>
+  <naturalweapons>
+	<naturalweapon>
+	  <name>Infected Bite</name>
+	  <reach>-1</reach>
+	  <damage>({STR}+1)P</damage>
+	  <ap>-1</ap>
+	  <useskill>Unarmed Combat</useskill>
+	  <accuracy>Physical</accuracy>
+	  <source>RF</source>
+	  <page>137</page>
+	</naturalweapon>
+  </naturalweapons>
+  <bonus useselected="False">
+	<critterpowers>
+	  <power>Essence Drain</power>
+	  <power select="Age">Immunity</power>
+	  <power>Essence Loss</power>
+	  <power>Dual Natured</power>
+	  <power>Celerity</power>
+	  <power select="Ferrous Metals">Vulnerability</power>
+	  <power select="Ferrous Metals, Extreme">Allergy</power>
+	  <power select="Sunlight, Severe">Allergy</power>
+	  <power select="Metahuman Flesh">Dietary Requirement</power>
+	  <power select="Metahuman Blood">Dietary Requirement</power>
+	</critterpowers>
+	<enableattribute>
+	  <name>MAG</name>
+	</enableattribute>
+	<enabletab>
+	  <name>adept</name>
+	  <name>critter</name>
+	</enabletab>
+	<initiativepass precedence="-1">1</initiativepass>
+	<limitcritterpowercategory>Infected</limitcritterpowercategory>
+	<optionalpowers>
+	  <optionalpower select="Hearing">Enhanced Senses</optionalpower>
+	  <optionalpower select="Thermographic Vision">Enhanced Senses</optionalpower>
+	  <optionalpower select="Toxins">Immunity</optionalpower>
+	  <optionalpower select="Pathogens">Immunity</optionalpower>
+	</optionalpowers>
+	<replaceattributes>
+	  <replaceattribute>
+		<name>BOD</name>
+		<min>1</min>
+		<max>8</max>
+		<aug>12</aug>
+	  </replaceattribute>
+	  <replaceattribute>
+		<name>AGI</name>
+		<min>2</min>
+		<max>8</max>
+		<aug>12</aug>
+	  </replaceattribute>
+	  <replaceattribute>
+		<name>REA</name>
+		<min>1</min>
+		<max>8</max>
+		<aug>12</aug>
+	  </replaceattribute>
+	  <replaceattribute>
+		<name>STR</name>
+		<min>1</min>
+		<max>7</max>
+		<aug>11</aug>
+	  </replaceattribute>
+	  <replaceattribute>
+		<name>WIL</name>
+		<min>1</min>
+		<max>7</max>
+		<aug>11</aug>
+	  </replaceattribute>
+	  <replaceattribute>
+		<name>LOG</name>
+		<min>1</min>
+		<max>6</max>
+		<aug>10</aug>
+	  </replaceattribute>
+	  <replaceattribute>
+		<name>INT</name>
+		<min>1</min>
+		<max>7</max>
+		<aug>11</aug>
+	  </replaceattribute>
+	  <replaceattribute>
+		<name>CHA</name>
+		<min>3</min>
+		<max>9</max>
+		<aug>13</aug>
+	  </replaceattribute>
+	</replaceattributes>
+	<runmultiplier>
+	  <category>Ground</category>
+	  <val>1</val>
+	</runmultiplier>
+	<selectattributes>
+	  <selectattribute>
+		<attribute>BOD</attribute>
+		<attribute>REA</attribute>
+		<attribute>STR</attribute>
+		<attribute>AGI</attribute>
+		<val>1</val>
+	  </selectattribute>
+	  <selectattribute>
+		<attribute>BOD</attribute>
+		<attribute>REA</attribute>
+		<attribute>STR</attribute>
+		<attribute>AGI</attribute>
+		<val>1</val>
+	  </selectattribute>
+	  <selectattribute>
+		<attribute>WIL</attribute>
+		<attribute>INT</attribute>
+		<attribute>CHA</attribute>
+		<val>1</val>
+	  </selectattribute>
+	  <selectattribute>
+		<attribute>WIL</attribute>
+		<attribute>INT</attribute>
+		<attribute>CHA</attribute>
+		<val>1</val>
+	  </selectattribute>
+	</selectattributes>
+	<unlockskills>Adept</unlockskills>
+	<walkmultiplier>
+	  <category>Ground</category>
+	  <val>1</val>
+	</walkmultiplier>
+	<walkmultiplier>
+	  <category>Swim</category>
+	  <val>1</val>
+	</walkmultiplier>
+  </bonus>
+  <forbidden>
+	<oneof>
+	  <quality>Magic Resistance</quality>
+	  <resenabled />
+	  <depenabled />
+	  <quality>Latent Dracomorphosis</quality>
+	</oneof>
+  </forbidden>
+  <required>
+	<allof>
+	  <metatype>Elf</metatype>
+	</allof>
+  </required>
+  <source>SR5</source>
+  <page>5</page>
+</quality>
+
+<quality>
+  <id>88577e80-3a60-4ad2-b36f-5e70bc977750</id>
+  <name>Infected: Chiron</name>
+  <karma>32</karma>
+  <category>Positive</category>
+  <contributetolimit>False</contributetolimit>
+  <naturalweapons>
+	<naturalweapon>
+	  <name>Infected Bite</name>
+	  <reach>-1</reach>
+	  <damage>({STR}+1)P</damage>
+	  <ap>-1</ap>
+	  <useskill>Unarmed Combat</useskill>
+	  <accuracy>Physical</accuracy>
+	  <source>RF</source>
+	  <page>137</page>
+	</naturalweapon>
+	<naturalweapon>
+	  <name>Kick</name>
+	  <reach>1</reach>
+	  <damage>({STR}+2)P</damage>
+	  <ap>-1</ap>
+	  <useskill>Unarmed Combat</useskill>
+	  <accuracy>Physical</accuracy>
+	  <source>RF</source>
+	  <page>137</page>
+	</naturalweapon>
+  </naturalweapons>
+  <bonus useselected="False">
+	<critterpowers>
+	  <power>Essence Drain</power>
+	  <power select="Age">Immunity</power>
+	  <power>Essence Loss</power>
+	  <power>Dual Natured</power>
+	  <power>Uneducated</power>
+	  <power select="Hydra Venom">Vulnerability</power>
+	  <power select="Sunlight, Severe">Allergy</power>
+	  <power select="Metahuman Flesh">Dietary Requirement</power>
+	</critterpowers>
+	<enableattribute>
+	  <name>MAG</name>
+	</enableattribute>
+	<enabletab>
+	  <name>critter</name>
+	</enabletab>
+	<initiativepass precedence="-1">1</initiativepass>
+	<limitcritterpowercategory>Infected</limitcritterpowercategory>
+	<optionalpowers>
+	  <optionalpower select="Low-Light Vision">Enhanced Senses</optionalpower>
+	  <optionalpower select="Thermographic Vision">Enhanced Senses</optionalpower>
+	  <optionalpower select="Toxins">Immunity</optionalpower>
+	  <optionalpower select="Pathogens">Immunity</optionalpower>
+	</optionalpowers>
+	<replaceattributes>
+	  <replaceattribute>
+		<name>BOD</name>
+		<min>3</min>
+		<max>9</max>
+		<aug>13</aug>
+	  </replaceattribute>
+	  <replaceattribute>
+		<name>AGI</name>
+		<min>1</min>
+		<max>6</max>
+		<aug>10</aug>
+	  </replaceattribute>
+	  <replaceattribute>
+		<name>REA</name>
+		<min>1</min>
+		<max>7</max>
+		<aug>11</aug>
+	  </replaceattribute>
+	  <replaceattribute>
+		<name>STR</name>
+		<min>3</min>
+		<max>10</max>
+		<aug>14</aug>
+	  </replaceattribute>
+	  <replaceattribute>
+		<name>WIL</name>
+		<min>1</min>
+		<max>7</max>
+		<aug>11</aug>
+	  </replaceattribute>
+	  <replaceattribute>
+		<name>LOG</name>
+		<min>1</min>
+		<max>6</max>
+		<aug>10</aug>
+	  </replaceattribute>
+	  <replaceattribute>
+		<name>INT</name>
+		<min>1</min>
+		<max>6</max>
+		<aug>10</aug>
+	  </replaceattribute>
+	  <replaceattribute>
+		<name>CHA</name>
+		<min>1</min>
+		<max>7</max>
+		<aug>11</aug>
+	  </replaceattribute>
+	</replaceattributes>
+	<selectattributes>
+	  <selectattribute>
+		<attribute>BOD</attribute>
+		<attribute>REA</attribute>
+		<attribute>STR</attribute>
+		<val>1</val>
+	  </selectattribute>
+	  <selectattribute>
+		<attribute>BOD</attribute>
+		<attribute>REA</attribute>
+		<attribute>STR</attribute>
+		<val>1</val>
+	  </selectattribute>
+	  <selectattribute>
+		<attribute>WIL</attribute>
+		<attribute>INT</attribute>
+		<attribute>CHA</attribute>
+		<val>1</val>
+	  </selectattribute>
+	  <selectattribute>
+		<attribute>WIL</attribute>
+		<attribute>INT</attribute>
+		<attribute>CHA</attribute>
+		<val>1</val>
+	  </selectattribute>
+	</selectattributes>
+  </bonus>
+  <forbidden>
+	<oneof>
+	  <quality>Magic Resistance</quality>
+	  <resenabled />
+	  <depenabled />
+	  <quality>Latent Dracomorphosis</quality>
+	</oneof>
+  </forbidden>
+  <required>
+	<allof>
+	  <metatype>Centaur</metatype>
+	</allof>
+  </required>
+  <source>SR5</source>
+  <page>5</page>
+</quality>
+
+<quality>
+  <id>348b13ed-c155-4fe8-b297-15abb4599316</id>
+  <name>Infected Optional Power: Magic Sense</name>
+  <karma>7</karma>
+  <category>Positive</category>
+  <doublecareer>False</doublecareer>
+  <bonus>
+	<critterpowers>
+	  <power>Magic Sense</power>
+	</critterpowers>
+  </bonus>
+  <forbidden>
+	<oneof>
+	  <critterpower>Magic Sense</critterpower>
+	</oneof>
+  </forbidden>
+  <required>
+	<oneof>
+	  <quality>Infected: Chiron</quality>
+	</oneof>
+  </required>
+  <source>RF</source>
+  <page>116</page>
+</quality>
+
 <!-- Standard Positive Qualities -->
 
 <quality>

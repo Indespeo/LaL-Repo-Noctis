@@ -38,6 +38,25 @@
       <category amendoperation="remove">Drake</category>
       <category amendoperation="append">Naga</category>
     </power>
+  <!-- Allow new Infected types to select advanced powers -->
+    <power>
+      <id>c3e2ee0c-7c4d-479f-997d-7079cb4dee7a</id>
+      <name>Desire Reflection</name>
+      <required>
+        <oneof>
+          <quality amendoperation="addnode">Infected: Baobhan Sith</quality>
+        </oneof>
+      </required>
+    </power>
+    <power>
+      <id>9b2033d3-be97-440e-a5f4-f9d8a230c09c</id>
+      <name>Stupefying Miasma</name>
+      <required>
+        <oneof>
+          <quality amendoperation="addnode">Infected: Baobhan Sith</quality>
+        </oneof>
+      </required>
+    </power>
   </powers>
 </chummer>
 

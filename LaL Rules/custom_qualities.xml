@@ -1636,7 +1636,46 @@
 	</quality>
 	
 	<!-- Additional Positive SURGE Qualities -->
-	
+
+	<quality>
+      <id>c992c05b-c68d-4491-a041-806f9367b1eb</id>
+      <name>Decidious</name>
+      <karma>6</karma>
+      <category>Positive</category>
+      <metagenic>True</metagenic>
+      <required>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+          <quality>Changeling (Class III SURGE)</quality>
+        </oneof>
+      </required>
+      <metagenic>True</metagenic>
+      <source>SR5</source>
+      <page>5</page>
+    </quality>
+
+	<quality>
+      <id>1f6294b6-357e-4a32-9429-063c0ab63163</id>
+      <name>Roots</name>
+      <karma>8</karma>
+      <category>Positive</category>
+      <metagenic>True</metagenic>
+      <required>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+          <quality>Changeling (Class III SURGE)</quality>
+        </oneof>
+      </required>
+	  <bonus>
+        <lifestylecost>-10</lifestylecost>
+      </bonus>
+      <metagenic>True</metagenic>
+      <source>SR5</source>
+      <page>5</page>
+    </quality>
+
 	<quality>
       <id>c18dd10f-f68a-4a26-80cb-10e4585c9468</id>
       <name>Regrowth</name>

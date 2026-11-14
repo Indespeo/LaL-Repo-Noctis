@@ -1413,6 +1413,20 @@
 <!-- Awakened Qualities -->
 
 <quality>
+    <id>14361c0e-bd7e-45a7-a8aa-ca56763039b1</id>
+      <name>Hard Won Heuristics</name>
+      <karma>5</karma>
+      <category>Positive</category>
+		<required>
+			<oneof>
+				<metamagic>Advanced Alchemy</metamagic>
+			</oneof>
+		</required>			
+      <source>SR5</source>
+    <page>5</page>
+</quality>
+
+<quality>
     <id>4194c131-66ec-4889-a78f-4a2a30fe5d5a</id>
       <name>Astral Envelopment</name>
       <karma>2</karma>

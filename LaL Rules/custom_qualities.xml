@@ -838,6 +838,24 @@
 <!-- Standard Positive Qualities -->
 
 <quality>
+    <id>cae17d4f-b80f-4670-ae96-49d1bba6335d</id>
+	<name>Trench Fighter</name>
+	<karma>10</karma>
+	<category>Positive</category>
+	<doublecareer>False</doublecareer>
+	<costdiscount>
+		<required>
+		  <oneof>
+			<technique>Finishing Move</technique>
+		  </oneof>
+		</required>
+		<value>-7</value>
+    </costdiscount>
+	<source>SR5</source>
+	<page>5</page>
+</quality>
+
+<quality>
     <id>aded2ec3-fd0c-4d6f-96ae-e33a6513575b</id>
       <name>Fashion Influencer</name>
       <karma>5</karma>

@@ -1652,6 +1652,31 @@
 	<!-- Additional Positive SURGE Qualities -->
 
 	<quality>
+      <id>18a912c1-46d0-4064-926f-cbd751253384</id>
+      <name>Lorg</name>
+      <karma>15</karma>
+      <category>Positive</category>
+      <metagenic>True</metagenic>
+      <required>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+          <quality>Changeling (Class III SURGE)</quality>
+        </oneof>
+      </required>
+	  <bonus>
+        <conditionmonitor>
+          <physical>2</physical>
+        </conditionmonitor>
+        <damageresistance>2</damageresistance>
+        <lifestylecost>30</lifestylecost>
+      </bonus>
+      <metagenic>True</metagenic>
+      <source>SR5</source>
+      <page>5</page>
+    </quality>
+
+	<quality>
       <id>c992c05b-c68d-4491-a041-806f9367b1eb</id>
       <name>Decidious</name>
       <karma>6</karma>

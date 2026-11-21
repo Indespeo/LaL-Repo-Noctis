@@ -57,6 +57,17 @@
     </power>
 
 	<power>
+      <id>c411eb67-8cbc-4c5b-9e25-c1ec325ed9cf</id>
+      <name>Ringing Weapon</name>
+      <points>0.5</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>SR5</source>
+      <page>5</page>
+      <adeptway>0.25</adeptway>
+    </power>
+
+	<power>
       <id>cb5d494b-858f-4871-8a93-680aa06646e8</id>
       <name>Siphon</name>
       <points>1</points>

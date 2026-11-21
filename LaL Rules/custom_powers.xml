@@ -186,6 +186,11 @@
       <source>SR5</source>
       <page>5</page>
       <adeptway>0.25</adeptway>
+	  <required>
+		<oneof>
+			<power>Voice Control</power>
+		</oneof>
+	  </required>
     </power>
 
     <power>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--This file is part of Chummer5a.
+
+    Chummer5a is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Chummer5a is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Chummer5a.  If not, see <http://www.gnu.org/licenses/>.
+
+    You can obtain the full source code for Chummer5a at
+    https://github.com/chummer5a/chummer5a
+-->
+<chummer>
+	<martialarts>
+		<martialart>
+			<id>c86690b9-cf46-4021-adda-a05a9db3d526</id>
+			<name>Way of Dance</name>
+			<bonus>
+				<addskillspecializationoption>
+					<skill>Unarmed</skill>
+					<spec>Way of Dance</spec>
+				</addskillspecializationoption>
+			</bonus>
+			<cost>15</cost>
+			<techniques>
+				<technique>
+					<name>Called Shot (Disarm)</name>
+				</technique>
+				<technique>
+					<name>Finishing Move</name>
+				</technique>
+				<technique>
+					<name>Riposte</name>
+				</technique>
+				<technique>
+					<name>Slide to the Left!</name>
+				</technique>
+				<technique>
+					<name>Mana Puncture</name>
+				</technique>
+				<technique>
+					<name>Kip-Up</name>
+				</technique>
+				<technique>
+					<name>Neijia</name>
+				</technique>
+				<technique>
+					<name>Strike the Darkness</name>
+				</technique>
+			</techniques>
+			<required>
+			<allof>
+				<magenabled />
+			</allof>
+			<oneof>
+				<skill>
+					<name>Performance</name>
+					<val>6</val>
+				<spec>Singing</spec>
+				</skill>
+					<quality>The Artist's Way</quality>
+				</oneof>
+			</required>
+			<source>SR5</source>
+			<page>5</page>
+		</martialart>
+		<martialart>
+		  <id>6ab5fd12-7de5-4b3f-bbf2-c81601ca7580</id>
+		  <name>Norsca Oxarvig</name>
+		  <bonus>
+			<addskillspecializationoption>
+			  <skill>Blades</skill>
+			  <spec>Norsca Oxarvig</spec>
+			</addskillspecializationoption>
+		  </bonus>
+		  <techniques>
+			<technique>
+			  <name>Broken Fang</name>
+			</technique>
+			<technique>
+			  <name>Cleave</name>
+			</technique>
+			<technique>
+			  <name>Finishing Move</name>
+			</technique>
+			<technique>
+			  <name>Multiple Opponent Combat</name>
+			</technique>
+			<technique>
+			  <name>Multiple Opponent Defense (Defender has Defended)</name>
+			</technique>
+			<technique>
+			  <name>Sweep</name>
+			</technique>
+			<technique>
+			  <name>Neijia</name>
+			</technique>
+			<technique>
+			  <name>Strike the Darkness</name>
+			</technique>
+		  </techniques>
+		  <source>SR5</source>
+		  <page>5</page>
+		</martialart>
+		<martialart>
+		  <id>8e1836a0-adc0-4b42-ba3f-470c625bbf20</id>
+		  <name>Rhythmic Beating</name>
+		  <bonus>
+			<addskillspecializationoption>
+			  <skill>Clubs</skill>
+			  <spec>Rhythmic Beating</spec>
+			</addskillspecializationoption>
+		  </bonus>
+		  <techniques>
+			<technique>
+			  <name>Called Shot (Break Weapon)</name>
+			</technique>
+			<technique>
+			  <name>Broken Fang</name>
+			</technique>
+			<technique>
+			  <name>Two-Weapon Style Attack</name>
+			</technique>
+			<technique>
+			  <name>Full Offense</name>
+			</technique>
+			<technique>
+			  <name>Multiple Opponent Defense (Friends in Melee)</name>
+			</technique>
+			<technique>
+			  <name>Multiple Opponent Defense (Defender has Defended)</name>
+			</technique>
+			<technique>
+			  <name>Neijia</name>
+			</technique>
+			<technique>
+			  <name>Strike the Darkness</name>
+			</technique>
+		  </techniques>
+		  <source>SR5</source>
+		  <page>5</page>
+		</martialart>
+	</martialarts>
+	<techniques>
+		<technique>
+		  <id>bd6c37ed-69ab-4724-89b9-fba25c943d81</id>
+		  <name>Cleave</name>
+		  <source>SR5</source>
+		  <page>5</page>
+		</technique>
+		<technique>
+		  <id>c1f92b43-34d1-42e1-b1d5-24ed4c896050</id>
+		  <name>Slide to the Left!</name>
+		  <source>SR5</source>
+		  <page>5</page>
+		</technique>
+		<technique>
+		  <id>7b66306f-6874-4f83-85c3-a0e3b74f532b</id>
+		  <name>Mana Puncture</name>
+		  <source>SR5</source>
+		  <page>5</page>
+		</technique>
+	</techniques>
+</chummer>

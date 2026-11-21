@@ -1911,6 +1911,24 @@
   <!-- Additional Negative SURGE Qualities -->
 
 	<quality>
+      <id>03c1aac8-4091-4811-8946-4d515a42fc2d</id>
+      <name>Saurian</name>
+      <karma>-6</karma>
+      <category>Negative</category>
+	  <metagenic>True</metagenic>
+	  <bonus />      
+      <required>
+        <oneof>
+          <quality>Changeling (Class I SURGE)</quality>
+          <quality>Changeling (Class II SURGE)</quality>
+          <quality>Changeling (Class III SURGE)</quality>
+        </oneof>
+      </required>
+      <source>SR5</source>
+      <page>5</page>
+    </quality>
+
+	<quality>
       <id>2147778d-3044-499c-a0f8-fe19a8ae9e64</id>
       <name>Striking Sclera</name>
       <karma>-3</karma>

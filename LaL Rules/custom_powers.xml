@@ -104,4 +104,20 @@
     </power>
 
   </powers>
+
+  <enhancements>
+		<enhancement>
+			<id>0868d0ed-80da-49d2-b3a6-0fbbe161edbf</id>
+			<name>Would You Kindly</name>
+			<power>Commanding Voice</power>
+			<required>
+				<allof>
+					<power>Commanding Voice</power>
+					<quality>The Speaker's Way</quality>
+				</allof>
+			</required>
+			<source>SR5</source>
+			<page>5</page>
+		</enhancement>
+  </enhancements>
 </chummer>

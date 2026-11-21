@@ -65,6 +65,7 @@
       <source>SR5</source>
       <page>5</page>
       <adeptway>0.25</adeptway>
+      <action>Simple</action>
     </power>
 
 	<power>
@@ -76,11 +77,115 @@
       <source>SR5</source>
       <page>5</page>
       <adeptway>0.5</adeptway>
-	    <required>
-			<oneof>
-				<metamagic>Cannibalize</metamagic>
-			</oneof>
-		</required>	
+	  <required>
+		<oneof>
+			<metamagic>Cannibalize</metamagic>
+		</oneof>
+	  </required>
+    </power>
+
+	<power>
+      <id>707f5f49-10de-4b8e-a5af-e4477015603e</id>
+      <name>Adrenaline Leech</name>
+      <points>0.75</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>SR5</source>
+      <page>5</page>
+	  <required>
+		<oneof>
+			<metamagic>Cannibalize</metamagic>
+		</oneof>
+	  </required>
+    </power>
+
+	<power>
+      <id>f27a1836-149f-4888-aa0b-c2bb452e6cf3</id>
+      <name>Coagulant Armor</name>
+      <points>0.25</points>
+      <levels>True</levels>
+      <limit>1</limit>
+      <source>SR5</source>
+      <page>5</page>
+	  <required>
+		<oneof>
+			<metamagic>Cannibalize</metamagic>
+		</oneof>
+	  </required>
+    </power>
+
+	<power>
+      <id>3510da5c-70da-4126-b1ce-1461d6de0eed</id>
+      <name>Dash</name>
+      <points>0.25</points>
+      <levels>True</levels>
+      <limit>1</limit>
+      <source>SR5</source>
+      <page>5</page>
+    </power>
+
+	<power>
+      <id>d6d1c838-8730-479b-a7bb-1672c33daa55</id>
+      <name>Heart of the Blade</name>
+      <points>0.5</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>SR5</source>
+      <page>5</page>
+      <adeptway>0.25</adeptway>
+	  <required>
+		<oneof>
+			<metamagic>Cannibalize</metamagic>
+		</oneof>
+	  </required>
+	  <forbidden>
+		<oneof>
+			<quality>Mystic Adept</quality>
+		</oneof>
+	  </forbidden>
+    </power>
+
+	<power>
+      <id>bfd4b512-513e-4ea4-b99d-9ee8c61ed6a3</id>
+      <name>Sanguine Web</name>
+      <points>0.5</points>
+      <levels>False</levels>
+      <limit>1</limit>
+      <source>SR5</source>
+      <page>5</page>
+      <adeptway>0.25</adeptway>
+	  <required>
+		<oneof>
+			<metamagic>Cannibalize</metamagic>
+		</oneof>
+	  </required>
+    </power>
+
+	<power>
+      <id>033daf81-943c-465f-b9b9-0d8748d750c1</id>
+      <name>Sunlit Strike</name>
+      <points>0.75</points>
+      <levels>True</levels>
+      <limit>1</limit>
+      <source>SR5</source>
+      <page>5</page>
+      <action>Simple</action>
+	  <required>
+		<oneof>
+			<power>Killing Hands</power>
+		</oneof>
+	  </required>
+    </power>
+
+	<power>
+      <id>ed630c31-eacc-4bab-8c60-047ce9b8bd12</id>
+      <name>Inhuman Speech</name>
+      <points>0.5</points>
+      <levels>True</levels>
+      <limit>1</limit>
+      <source>SR5</source>
+      <page>5</page>
+      <adeptway>0.25</adeptway>
     </power>
 
     <power>

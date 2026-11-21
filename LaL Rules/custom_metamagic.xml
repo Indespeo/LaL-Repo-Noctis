@@ -86,6 +86,62 @@
       <source>SR5</source>
       <page>5</page>
     </metamagic>	
-	
+
+		<metamagic>
+		  <id>6a7e96df-4a0f-49db-9879-2cf952d00845</id>
+		  <name>Master of Battle</name>
+		  <adept>True</adept>	  
+		  <magician>False</magician>
+		  <required>
+			<allof>
+			  <quality>The Warrior's Way</quality>
+			</allof>
+		  </required>
+		  <source>SR5</source>
+		  <page>5</page>
+		</metamagic>	
+
+		<metamagic>
+		  <id>b66c6827-957f-468a-863e-30e73956266e</id>
+		  <name>Nobody of Consequence</name>
+		  <adept>True</adept>	  
+		  <magician>False</magician>
+		  <required>
+			<allof>
+			  <quality>The Invisible Way</quality>
+			</allof>
+		  </required>
+		  <source>SR5</source>
+		  <page>5</page>
+		</metamagic>	
+
+		<metamagic>
+		  <id>617cd8c3-1498-4000-a5ce-a6fb15834183</id>
+		  <name>Somebody Else’s Problem</name>
+		  <adept>True</adept>	  
+		  <magician>False</magician>
+		  <required>
+			<allof>
+			  <quality>The Invisible Way</quality>
+			</allof>
+		  </required>
+		  <source>SR5</source>
+		  <page>5</page>
+		</metamagic>	
+
+		<metamagic>
+		  <id>aa6d114e-a109-4986-9ebd-565e96a0dc1b</id>
+		  <name>Supernatural Prodigy</name>
+		  <adept>True</adept>	  
+		  <magician>False</magician>
+		  <required>
+			<allof>
+			  <quality>The Artisan's Way</quality>
+			</allof>
+		  </required>
+		  <source>SR5</source>
+		  <page>5</page>
+		</metamagic>	
+
 	</metamagics>
 </chummer>

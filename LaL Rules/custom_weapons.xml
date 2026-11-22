@@ -502,15 +502,15 @@
       <category>Flamethrowers</category>
       <type>Ranged</type>
       <conceal>8</conceal>
-      <accuracy>5</accuracy>
+      <accuracy>6</accuracy>
       <reach>0</reach>
       <damage>12P</damage>
       <ap>-6</ap>
-      <mode>FA</mode>
+      <mode>SA/FA</mode>
       <rc>0</rc>
-      <ammo>3(c)</ammo>
-      <avail>14F</avail>
-      <cost>5000</cost>
+      <ammo>15(c)</ammo>
+      <avail>16F</avail>
+      <cost>15000</cost>
       <source>SR5</source>
       <page>5</page>
       <accessorymounts>

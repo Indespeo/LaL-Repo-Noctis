@@ -19,9 +19,67 @@
 -->
 <chummer>
 	<spells>
-	
+
 	<!-- Combat -->
-	
+    <spell>
+      <id>4aff6a01-7b8c-481f-9dd9-ca3c5e77fee3</id>
+      <name>[Element] Arrow</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F+3</dv>
+      <range>LOS</range>
+      <type>P</type>
+      <bonus>
+        <selecttext />
+      </bonus>
+    </spell>
+
+    <spell>
+      <id>6098d71e-7c93-4ccd-8316-399c514d88e8</id>
+      <name>Death Lightning</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F+2</dv>
+      <range>LOS</range>
+      <type>P</type>
+    </spell>
+
+    <spell>
+      <id>6fe0cdd1-5d01-4c7b-9a1e-f70f2b9f2056</id>
+      <name>Ghost Flame</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F+2</dv>
+      <range>LOS</range>
+      <type>P</type>
+    </spell>
+
+    <spell>
+      <id>ddbc5600-1fec-4251-b686-c82c80fc9bdd</id>
+      <name>Black Ice Crag</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Elemental</descriptor>
+      <duration>I</duration>
+      <dv>F+2</dv>
+      <range>LOS</range>
+      <type>P</type>
+    </spell>
+
     <spell>
       <id>ee81c12e-e00b-417a-a643-a96ac39afc55</id>
       <name>Shock Wave</name>
@@ -161,7 +219,21 @@
       <range>LOS (A)</range>
       <type>P</type>
     </spell>
-	
+
+    <spell>
+      <id>57d3d9fc-e2aa-487f-a750-3664f378b2a8</id>
+      <name>Moon Crater</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect</descriptor>
+      <duration>I</duration>
+      <dv>F-4</dv>
+      <range>T</range>
+      <type>P</type>
+    </spell>
+
     <spell>
       <id>50868e27-116c-451d-9d54-5b00bf47184c</id>
       <name>Moonbeam</name>
@@ -174,8 +246,50 @@
       <dv>F-1</dv>
       <range>LOS</range>
       <type>P</type>
-    </spell>	
-	
+    </spell>
+
+    <spell>
+      <id>0da59172-f94b-4cec-8ed0-26ca528a9651</id>
+      <name>Eclipse</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Area</descriptor>
+      <duration>I</duration>
+      <dv>F+1</dv>
+      <range>LOS (A)</range>
+      <type>P</type>
+    </spell>
+
+    <spell>
+      <id>5ebafab6-b4bc-44cc-b8ff-14c85e12ab50</id>
+      <name>Sunlight Overdrive</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect</descriptor>
+      <duration>I</duration>
+      <dv>F-3</dv>
+      <range>T</range>
+      <type>P</type>
+    </spell>
+
+    <spell>
+      <id>ec32235d-5f12-4b88-b137-615f001f14f9</id>
+      <name>Sunburst</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Combat</category>
+      <damage>P</damage>
+      <descriptor>Indirect, Area</descriptor>
+      <duration>I</duration>
+      <dv>F+1</dv>
+      <range>LOS (A)</range>
+      <type>P</type>
+    </spell>
+
     <spell>
       <id>cadd274d-16db-4e0a-83f2-c246b76ad66a</id>
       <name>Sedate</name>
@@ -263,6 +377,23 @@
 <!-- Manipulation -->
 
     <spell>
+      <id>8aad4edf-0585-4c0c-a712-55a4c40d65ed</id>
+      <name>Reinforce [Vehicle]</name>
+      <page>5</page>
+      <source>SR5</source>
+      <category>Manipulation</category>
+      <damage>P</damage>
+      <descriptor>Physical</descriptor>
+      <duration>S</duration>
+      <dv>F-2</dv>
+      <range>LOS</range>
+      <type>P</type>
+      <bonus>
+        <selecttext />
+      </bonus>
+    </spell>
+
+    <spell>
       <id>91853209-2af8-458f-a67b-a559aa5f93a7</id>
       <name>Accelerate</name>
       <page>5</page>
@@ -274,7 +405,7 @@
       <range>T</range>
       <type>P</type>
     </spell>
-	
+
     <spell>
       <id>73a1ec38-0c28-45e8-8e3a-e83f415216fb</id>
       <name>Decelerate</name>

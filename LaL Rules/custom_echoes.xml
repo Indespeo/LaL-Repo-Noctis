@@ -17,7 +17,8 @@
     You can obtain the full source code for Chummer5a at
     https://github.com/chummer5a/chummer5a
 -->
-<chummer>
+<chummer xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3.org/2001/XMLSchema echoes.xsd">
     <echoes>
         <echo>
           <id>fc62a906-9873-4386-8cef-385caf27a424</id>
@@ -38,6 +39,17 @@
           <name>Resonant Router</name>
           <source>SR5</source>
           <page>5</page>
+        </echo>
+
+        <echo>
+            <id>855410d3-b96a-4371-9cbe-924b70addd44</id>
+            <name>[BTL] Emulation</name>
+            <source>SR5</source>
+            <page>5</page>
+            <bonus>
+                <selecttext></selecttext>
+            </bonus>
+            <limit>False</limit>
         </echo>
     </echoes>
 </chummer>
